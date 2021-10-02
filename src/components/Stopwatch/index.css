@@ -1,0 +1,100 @@
+/* Write CSS here */
+.stopWatch-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 52px;
+  font-weight: 600;
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  .stopWatch-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    align-items: flex-start;
+  }
+  .heading {
+    font-size: 62px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+  }
+}
+.timer-card-container {
+  height: 300px;
+  width: 80%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .timer-card-container {
+    max-width: 500px;
+    margin-left: 50px;
+  }
+}
+.timer {
+  display: flex;
+  align-items: center;
+}
+.timer-img {
+  height: 40px;
+}
+.timer-text {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  margin-left: 16px;
+}
+.timer-count {
+  color: #333333;
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 28px;
+}
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+.button {
+  height: 38px;
+  width: 90px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-right: 12px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 120px;
+    margin-right: 16px;
+  }
+}
+.red-btn {
+  background-color: #ef0d36;
+}
+.green-btn {
+  background-color: #1db05f;
+}
+.yellow-btn {
+  background-color: #eaa800;
+}
